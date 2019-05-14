@@ -1,2 +1,5 @@
 Home = 'r\C:Programm Files\Home'
 if not os.path.exists(Home)
+os.makedirs(Home)
+if os.path.exists(Home)
+shutil.move(src, 'r\C:Programm Files\Home, copy_function=copy2)
