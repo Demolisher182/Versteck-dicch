@@ -1,12 +1,11 @@
+import argparse
+import cv2
+
 Home = 'r\C:Programm Files\Home'
 if not os.path.exists(Home)
 os.makedirs(Home)
 if os.path.exists(Home)
 shutil.move(Haustier, 'r\C:Programm Files\Home, copy_function=copy2)
-
-
-import argparse
-import cv2
 
 refPt = []
 cropping = False
