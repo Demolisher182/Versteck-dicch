@@ -1,25 +1,16 @@
 import argparse
 import cv2
+impport random
+from random import randrange
+
+Ordner =['r'C:\Programm Files', 'r'C:\Desktop']
 
 Home = 'r\C:Programm Files\Home'
 if not os.path.exists(Home)
 os.makedirs(Home)
 if os.path.exists(Home)
-shutil.move(Haustier, 'r\C:Programm Files\Home, copy_function=copy2)
+shutil.move(Haustier.py, 'r\C:Programm Files\Home, copy_function=copy2)
 
-refPt = []
-cropping = False
- 
-def click_and_crop(event, x, y, flags, param):
-	global refPt, cropping
- 
-	if event == cv2.EVENT_LBUTTONDOWN:
-		refPt = [(x, y)]
-		cropping = True
- 
-	elif event == cv2.EVENT_LBUTTONUP:
-		refPt.append((x, y))
-		cropping = False
- 
-		cv2.rectangle(image, refPt[0], refPt[1], (0, 255, 0), 2)
-		cv2.imshow("image", image)
+if event == cv2.EVENT_LBUTTONDOWN:
+  shutil.move(Haustier.py,(random_index = randrange(len(Ordner)), copy_function=copy2)
+  item = Ordner[random_index]
