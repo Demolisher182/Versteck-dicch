@@ -14,3 +14,7 @@ shutil.move(Haustier.py, 'r\C:Programm Files\Home, copy_function=copy2)
 if event == cv2.EVENT_LBUTTONDOWN:
   shutil.move(Haustier.py,(random_index = randrange(len(Ordner)), copy_function=copy2)
   item = Ordner[random_index]
+
+ if event == cv2.EVENT_RBUTTONDOWN:
+   shutil.move(Haustier.py, (random_indexx = randrange(len(Ordner)), copy_function=copy2)
+   item = Ordner[random_index]
